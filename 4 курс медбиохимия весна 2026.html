@@ -1,0 +1,759 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:472908123;
+	mso-list-type:hybrid;
+	mso-list-template-ids:970885040 68747279 68747289 68747291 68747279 68747289 68747291 68747279 68747289 68747291;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1
+	{mso-list-id:843740275;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1899258700 68747279 68747289 68747291 68747279 68747289 68747291 68747279 68747289 68747291;}
+@list l1:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2
+	{mso-list-id:1570572384;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-484295074 68747279 68747289 68747291 68747279 68747289 68747291 68747279 68747289 68747291;}
+@list l2:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+/* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"\041E\0431\044B\0447\043D\0430\044F \0442\0430\0431\043B\0438\0446\0430";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+table.MsoTableGrid
+	{mso-style-name:"\0421\0435\0442\043A\0430 \0442\0430\0431\043B\0438\0446\044B";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+:root { color-scheme: light; }
+body { margin: 0; padding: 12px; background: #fff; }
+.content-wrap { width: 100%; }
+.content-wrap table { border-collapse: collapse; max-width: 100%; }
+.content-wrap img { max-width: 100%; height: auto; }
+@media (max-width: 600px) {
+  body { padding: 8px; }
+}
+</style>
+</head>
+<body>
+<div class="content-wrap">
+<div class=WordSection1>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid white .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid white;mso-border-insidev:.5pt solid white'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=361 valign=top style='width:270.45pt;border:solid white 1.0pt;
+  mso-border-alt:solid white .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='tab-stops:right 258.75pt'><span style='mso-tab-count:
+  1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+  style='mso-spacerun:yes'>&nbsp;</span><span
+  style='mso-spacerun:yes'>&nbsp;</span></p>
+  <p class=MsoNormal><span style='mso-spacerun:yes'>&nbsp;</span><b
+  style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
+  style='color:red'><o:p></o:p></span></i></b></p>
+  </td>
+  <td width=357 valign=top style='width:267.65pt;border:solid white 1.0pt;
+  border-left:none;mso-border-left-alt:solid white .5pt;mso-border-alt:solid white .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&#1059;&#1058;&#1042;&#1045;&#1056;&#1046;&#1044;&#1040;&#1070;</p>
+  <p class=MsoNormal align=right style='text-align:right'>&#1055;&#1088;&#1086;&#1088;&#1077;&#1082;&#1090;&#1086;&#1088;<span
+  style='mso-spacerun:yes'>&nbsp; </span>&#1087;&#1086;<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>&#1091;&#1095;&#1077;&#1073;&#1085;&#1086;&#1081;</p>
+  <p class=MsoNormal align=right style='text-align:right'>&#1080;
+  &#1074;&#1086;&#1089;&#1087;&#1080;&#1090;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1081;<span
+  style='mso-spacerun:yes'>&nbsp;
+  </span>&#1088;&#1072;&#1073;&#1086;&#1090;&#1077;</p>
+  <p class=MsoNormal align=right style='text-align:right'>____________&#1057;.
+  &#1070;. &#1040;&#1073;&#1088;&#1086;&#1089;&#1080;&#1084;&#1086;&#1074;</p>
+  <p class=MsoNormal align=right style='text-align:right'>&quot;_____&quot;___________
+  2025 &#1075;.<span style='font-size:10.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='mso-bidi-font-size:9.0pt;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center'><b
+style='mso-bidi-font-weight:normal'>&#1056;&#1040;&#1057;&#1055;&#1048;&#1057;&#1040;&#1053;&#1048;&#1045;
+<o:p></o:p></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'>&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1081; &#1076;&#1083;&#1103;
+&#1089;&#1090;&#1091;&#1076;&#1077;&#1085;&#1090;&#1086;&#1074; 4
+&#1082;&#1091;&#1088;&#1089;&#1072;
+&#1092;&#1072;&#1082;&#1091;&#1083;&#1100;&#1090;&#1077;&#1090;&#1072; &#1084;&#1077;&#1076;&#1080;&#1082;&#1086;-&#1073;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086;
+<o:p></o:p></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'>&#1080;
+&#1075;&#1091;&#1084;&#1072;&#1085;&#1080;&#1090;&#1072;&#1088;&#1085;&#1086;&#1075;&#1086;
+&#1086;&#1073;&#1088;&#1072;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;
+&#1087;&#1086; &#1089;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080;
+30.05.01
+?&#1052;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1072;&#1103;
+&#1073;&#1080;&#1086;&#1093;&#1080;&#1084;&#1080;&#1103;? <o:p></o:p></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'>&#1085;&#1072; &#1074;&#1077;&#1089;&#1077;&#1085;&#1085;&#1080;&#1081;
+<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span>&#1089;&#1077;&#1084;&#1077;&#1089;&#1090;&#1088;
+2025-2026 &#1091;&#1095;&#1077;&#1073;&#1085;&#1086;&#1075;&#1086;
+&#1075;&#1086;&#1076;&#1072;<o:p></o:p></b></p>
+
+<p class=MsoNormal><span style='mso-bidi-font-size:9.0pt;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='mso-bidi-font-size:9.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1042;&#1085;&#1091;&#1090;&#1088;&#1077;&#1085;&#1085;&#1080;&#1077;
+&#1073;&#1086;&#1083;&#1077;&#1079;&#1085;&#1080; </span><span
+style='color:black'>&#1051;&#1077;&#1082;&#1094;&#1080;&#1080; 28
+&#1095;&#1072;&#1089;.,
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103; 44 &#1095;&#1072;&#1089;</span><span
+style='mso-bidi-font-size:9.0pt;color:black'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:9.0pt;color:black'> <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1044;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072;
+&#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081;
+&#1101;&#1085;&#1076;&#1086;&#1082;&#1088;&#1080;&#1085;&#1085;&#1086;&#1081;
+&#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1099;<span style='mso-tab-count:
+1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='color:black'>&#1051;&#1077;&#1082;&#1094;&#1080;&#1080; 14
+&#1095;&#1072;&#1089;.,
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103; 34 &#1095;&#1072;&#1089;</span><span
+style='font-size:9.0pt;color:black'><span style='mso-spacerun:yes'>&nbsp;
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1054;&#1073;&#1097;&#1072;&#1103;
+&#1080;
+&#1084;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1072;&#1103;
+&#1088;&#1072;&#1076;&#1080;&#1086;&#1073;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;<span
+style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='color:black'>&#1051;&#1077;&#1082;&#1094;&#1080;&#1080; 20
+&#1095;&#1072;&#1089;.,
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103; 52 &#1095;&#1072;&#1089;</span><span
+style='font-size:9.0pt;color:black'><span style='mso-spacerun:yes'>&nbsp;
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1050;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1093;&#1080;&#1088;&#1091;&#1088;&#1075;&#1080;&#1103;<span style='mso-tab-count:
+1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='color:black'>&#1051;&#1077;&#1082;&#1094;&#1080;&#1080; 18<span
+style='mso-spacerun:yes'>&nbsp; </span>&#1095;&#1072;&#1089;.,
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103; 42 &#1095;&#1072;&#1089;</span><span
+style='font-size:9.0pt;color:black'> <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1069;&#1087;&#1080;&#1076;&#1077;&#1084;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;
+</span><span style='color:black'>&#1051;&#1077;&#1082;&#1094;&#1080;&#1080; 14
+&#1095;&#1072;&#1089;.,
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103; 34<span
+style='mso-spacerun:yes'>&nbsp; </span>&#1095;&#1072;&#1089;</span><span
+style='mso-bidi-font-size:9.0pt;color:black'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:9.0pt;color:black'> <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1054;&#1073;&#1097;&#1072;&#1103;
+&#1080;
+&#1082;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1080;&#1084;&#1084;&#1091;&#1085;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;<span
+style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='color:black'>&#1051;&#1077;&#1082;&#1094;&#1080;&#1080; 20<span
+style='mso-spacerun:yes'>&nbsp; </span>&#1095;&#1072;&#1089;.,
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103; 52 &#1095;&#1072;&#1089;</span><span
+style='font-size:9.0pt;color:black'><span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1050;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1083;&#1072;&#1073;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;&#1085;&#1072;&#1103;
+&#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072;:
+&#1051;&#1072;&#1073;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;&#1085;&#1072;&#1103;
+&#1072;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1082;&#1072;.
+&#1052;&#1077;&#1085;&#1077;&#1076;&#1078;&#1084;&#1077;&#1085;&#1090;
+&#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1072;.
+&#1050;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072; </span><span
+style='color:black'>&#1051;&#1077;&#1082;&#1094;&#1080;&#1080; 20<span
+style='mso-spacerun:yes'>&nbsp; </span>&#1095;&#1072;&#1089;.,
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103; 40<span
+style='mso-spacerun:yes'>&nbsp; </span>&#1095;&#1072;&#1089;</span><span
+style='mso-bidi-font-size:9.0pt;color:black'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:9.0pt;color:black'> <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1052;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1072;&#1103;
+&#1073;&#1080;&#1086;&#1093;&#1080;&#1084;&#1080;&#1103;:
+&#1055;&#1088;&#1080;&#1085;&#1094;&#1080;&#1087;&#1099;
+&#1080;&#1079;&#1084;&#1077;&#1088;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093;
+&#1090;&#1077;&#1093;&#1085;&#1086;&#1083;&#1086;&#1075;&#1080;&#1081; &#1074;
+&#1073;&#1080;&#1086;&#1093;&#1080;&#1084;&#1080;&#1080;. <span class=SpellE>&#1055;&#1072;&#1090;&#1086;&#1093;&#1080;&#1084;&#1080;&#1103;</span>,
+&#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072;.<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span><span style='color:black'>&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;
+20 &#1095;&#1072;&#1089;.,
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103; 52<span
+style='mso-spacerun:yes'>&nbsp; </span>&#1095;&#1072;&#1089;</span><span
+style='font-size:9.0pt;color:black'><span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:4.7pt;tab-stops:187.1pt 212.1pt'><span
+style='font-size:14.0pt;mso-bidi-font-size:9.0pt;color:black'>&#1060;&#1080;&#1079;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1082;&#1091;&#1083;&#1100;&#1090;&#1091;&#1088;&#1072; &#1080;
+&#1089;&#1087;&#1086;&#1088;&#1090; &#8211; &#1087;&#1086;
+&#1088;&#1072;&#1089;&#1087;&#1080;&#1089;&#1072;&#1085;&#1080;&#1102;
+&#1082;&#1072;&#1092;&#1077;&#1076;&#1088;&#1099; 36
+&#1095;&#1072;&#1089;&#1086;&#1074;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'>&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;
+&#1080;
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;
+&#1087;&#1088;&#1086;&#1074;&#1086;&#1076;&#1103;&#1090;&#1089;&#1103;
+&#1085;&#1072; &#1082;&#1072;&#1092;&#1077;&#1076;&#1088;&#1077;. </p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>&#1055;&#1086;&#1085;&#1077;&#1076;&#1077;&#1083;&#1100;&#1085;&#1080;&#1082;
+<o:p></o:p></b></p>
+
+<p class=MsoNormal>8-00 &#8211; 11-25 <b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1050;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1083;&#1072;&#1073;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;&#1085;&#1072;&#1103;
+&#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072;:
+&#1051;&#1072;&#1073;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;&#1085;&#1072;&#1103;
+&#1072;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1082;&#1072;.
+&#1052;&#1077;&#1085;&#1077;&#1076;&#1078;&#1084;&#1077;&#1085;&#1090;
+&#1082;&#1072;&#1095;&#1077;&#1089;&#1090;&#1074;&#1072;.
+&#1050;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072;</span></b><span
+style='color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal>8:00&#8211; 9:35
+&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;<span style='mso-spacerun:yes'>&nbsp;
+</span></p>
+
+<p class=MsoNormal>9,16 /02, 2,9,16,23,30/03,<span
+style='mso-spacerun:yes'>&nbsp; </span>6,13,20/04, <b style='mso-bidi-font-weight:
+normal'><u><span style='mso-spacerun:yes'>&nbsp;</span></u></b></p>
+
+<p class=MsoNormal>10:00&#8211;11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>9,16 /02, 2,9,16,23,30/03,<span
+style='mso-spacerun:yes'>&nbsp; </span>6,13,20/04 </p>
+
+<p class=MsoNormal>8:00 &#8211; 11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>27/04; 4,11,18,25/05<span
+style='color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='color:black'>&#1042;&#1090;&#1086;&#1088;&#1085;&#1080;&#1082;<o:p></o:p></span></b></p>
+
+<p class=MsoNormal>8-00 &#8211; 11-25<span style='mso-spacerun:yes'>&nbsp;
+</span><span style='mso-spacerun:yes'>&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;</span><b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1052;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1072;&#1103;
+&#1073;&#1080;&#1086;&#1093;&#1080;&#1084;&#1080;&#1103;:
+&#1055;&#1088;&#1080;&#1085;&#1094;&#1080;&#1087;&#1099;
+&#1080;&#1079;&#1084;&#1077;&#1088;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093;
+&#1090;&#1077;&#1093;&#1085;&#1086;&#1083;&#1086;&#1075;&#1080;&#1081; &#1074;
+&#1073;&#1080;&#1086;&#1093;&#1080;&#1084;&#1080;&#1080;. <span class=SpellE>&#1055;&#1072;&#1090;&#1086;&#1093;&#1080;&#1084;&#1080;&#1103;</span>,
+&#1076;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072;</span></b></p>
+
+<p class=MsoNormal>8:00&#8211; 9:35
+&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal>10,17,24/02, 3,10,17,24,31/03,<span
+style='mso-spacerun:yes'>&nbsp; </span>7,14/04,<span
+style='mso-spacerun:yes'>&nbsp; </span></p>
+
+<p class=MsoNormal>10:00&#8211;11:35 </p>
+
+<p class=MsoNormal>&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>&nbsp;</span>10,17,24/02,
+3,10,17,24,31/03,<span style='mso-spacerun:yes'>&nbsp; </span>7,14/04 </p>
+
+<p class=MsoNormal>8:00 &#8211; 11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal>21,28/04,<span style='mso-spacerun:yes'>&nbsp;
+</span>5,12,19,26/05,<span style='mso-spacerun:yes'>&nbsp; </span>2, <b
+style='mso-bidi-font-weight:normal'>8</b>/06<span
+style='mso-spacerun:yes'>&nbsp; </span><span style='color:red'><o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>&#1057;&#1088;&#1077;&#1076;&#1072;<o:p></o:p></b></p>
+
+<p class=MsoNormal>8-00 &#8211; 11-25<span style='mso-spacerun:yes'>&nbsp;
+</span><span style='mso-spacerun:yes'>&nbsp;</span><b style='mso-bidi-font-weight:
+normal'><span style='mso-bidi-font-size:9.0pt;color:black'>&#1042;&#1085;&#1091;&#1090;&#1088;&#1077;&#1085;&#1085;&#1080;&#1077;
+&#1073;&#1086;&#1083;&#1077;&#1079;&#1085;&#1080;</span></b><span
+style='color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal>8:00&#8211; 9:35
+&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal>11,18,25/02, 4,11,18,25/03, 1,8,15,22,29/04, 6,13/05</p>
+
+<p class=MsoNormal>10:00&#8211;11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>&nbsp;</span>11,18,25/02,
+4,11,18,25/03, 1,8,15,22,29/04, 6,13/05</p>
+
+<p class=MsoNormal>8:00 &#8211; 11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>20,27 /05; 3,<b style='mso-bidi-font-weight:
+normal'>5</b>/06<span style='mso-spacerun:yes'>&nbsp; </span><span
+style='color:red'><span style='mso-spacerun:yes'>&nbsp;</span></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>12-30 &#8211; 16-05<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span><b style='mso-bidi-font-weight:
+normal'><span style='mso-bidi-font-size:9.0pt;color:black'>&#1054;&#1073;&#1097;&#1072;&#1103;
+&#1080;
+&#1084;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1072;&#1103;
+&#1088;&#1072;&#1076;&#1080;&#1086;&#1073;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;</span></b></p>
+
+<p class=MsoNormal>12:30&#8211; 14:05
+&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>&nbsp;</span>11,18,25/02,
+4,11,18,25/03, 1,8,15/04</p>
+
+<p class=MsoNormal>14:30&#8211;16:05
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>11,18,25/02, 4,11,18,25/03, 1,8,15/04</p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>12-30 &#8211; 16-05<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span>&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>22,29/04;
+6,13,20,27/05; 3,<b style='mso-bidi-font-weight:normal'>9</b>/06<span
+style='mso-spacerun:yes'>&nbsp; </span><span style='color:red'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></p>
+
+<p class=MsoNormal><span style='color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='color:black'>&#1063;&#1077;&#1090;&#1074;&#1077;&#1088;&#1075;<o:p></o:p></span></b></p>
+
+<p class=MsoNormal>8-00 &#8211; 11-25 <b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1054;&#1073;&#1097;&#1072;&#1103;
+&#1080;
+&#1082;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1080;&#1084;&#1084;&#1091;&#1085;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;</span></b></p>
+
+<p class=MsoNormal>8:00&#8211; 9:35
+&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal>5,12,19,26 /02; 5,12,19,26 /03; 2,9/04</p>
+
+<p class=MsoNormal>10:00&#8211;11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>5,12,19,26 /02; 5,12,19,26 /03; 2,9/04</p>
+
+<p class=MsoNormal>8:00 &#8211; 11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>16,23,30/04;
+7,14,21,28/05, 4/06</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>12-30 &#8211; 16-05 <b style='mso-bidi-font-weight:normal'><span
+style='mso-bidi-font-size:9.0pt;color:black'>&#1044;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072;
+&#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081;
+&#1101;&#1085;&#1076;&#1086;&#1082;&#1088;&#1080;&#1085;&#1085;&#1086;&#1081;
+&#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1099;</span></b><span
+style='color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal>12:30&#8211; 14:05
+&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal>5,12,19,26 /02; 5,12,19/03</p>
+
+<p class=MsoNormal>14:30&#8211;16:05
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'>&nbsp;</span>5,12,19,26 /02;
+5,12,19/03</p>
+
+<p class=MsoNormal>12-30 &#8211; 16-05<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span>&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal>26 /03; 2,9,16,23/04</p>
+
+<p class=MsoNormal><span style='color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>&#1055;&#1103;&#1090;&#1085;&#1080;&#1094;&#1072;<o:p></o:p></b></p>
+
+<p class=MsoNormal>8-00 &#8211; 11-25<span style='mso-spacerun:yes'>&nbsp;
+</span><b style='mso-bidi-font-weight:normal'><span style='mso-bidi-font-size:
+9.0pt;color:black'>&#1050;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1093;&#1080;&#1088;&#1091;&#1088;&#1075;&#1080;&#1103;</span></b></p>
+
+<p class=MsoNormal>8:00&#8211; 9:35
+&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal>6,13,20,27/02,<span style='mso-spacerun:yes'>&nbsp;
+</span>6,13, 20,27/03, 3/04 </p>
+
+<p class=MsoNormal>10:00&#8211;11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>6,13,20,27/02,<span
+style='mso-spacerun:yes'>&nbsp; </span>6,13, 20,27/03, 3/04 </p>
+
+<p class=MsoNormal>8:00 &#8211; 11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>10,17,24/04; 8, 15,22/05<span
+style='mso-spacerun:yes'>&nbsp; </span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>&#1057;&#1091;&#1073;&#1073;&#1086;&#1090;&#1072;<o:p></o:p></b></p>
+
+<p class=MsoNormal>8-00 &#8211; 11-25<span style='mso-spacerun:yes'>&nbsp;
+</span><span style='mso-spacerun:yes'>&nbsp;</span><b style='mso-bidi-font-weight:
+normal'><span style='mso-bidi-font-size:9.0pt;color:black'>&#1069;&#1087;&#1080;&#1076;&#1077;&#1084;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;</span></b></p>
+
+<p class=MsoNormal>8:00&#8211; 9:35
+&#1051;&#1077;&#1082;&#1094;&#1080;&#1080;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>7,14,21,28 /02; 7,14,21/03;<span
+style='mso-spacerun:yes'>&nbsp; </span></p>
+
+<p class=MsoNormal>10:00&#8211;11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span>7,14,21,28 /02; 7,14,21/03;<span
+style='mso-spacerun:yes'>&nbsp; </span></p>
+
+<p class=MsoNormal>8:00 &#8211; 11:35
+&#1055;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077;
+&#1079;&#1072;&#1085;&#1103;&#1090;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>28/03,
+4,11,18,25/04</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>&#1057;&#1077;&#1089;&#1089;&#1080;&#1103; 10.06 ? &#8211; 20.06.
+2026</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>&#1069;&#1082;&#1079;&#1072;&#1084;&#1077;&#1085;&#1099;: </p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo2'><span style='mso-bidi-font-size:
+     9.0pt;color:black'>&#1054;&#1073;&#1097;&#1072;&#1103; &#1080;
+     &#1084;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1089;&#1082;&#1072;&#1103;
+     &#1088;&#1072;&#1076;&#1080;&#1086;&#1073;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;
+     15/06&#8211;2026</span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo2'><span style='mso-bidi-font-size:
+     9.0pt;color:black'>&#1054;&#1073;&#1097;&#1072;&#1103; &#1080;
+     &#1082;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+     &#1080;&#1084;&#1084;&#1091;&#1085;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;<span
+     style='mso-spacerun:yes'>&nbsp; </span>19/06&#8211;2026</span></li>
+</ol>
+
+<p class=MsoNormal>&#1047;&#1072;&#1095;&#1077;&#1090;&#1099;: </p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='color:black;mso-list:l2 level1 lfo3'><span
+     style='mso-bidi-font-size:9.0pt'>&#1069;&#1087;&#1080;&#1076;&#1077;&#1084;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:black;mso-list:l2 level1 lfo3'><span
+     style='mso-bidi-font-size:9.0pt'>&#1044;&#1080;&#1072;&#1075;&#1085;&#1086;&#1089;&#1090;&#1080;&#1082;&#1072;
+     &#1079;&#1072;&#1073;&#1086;&#1083;&#1077;&#1074;&#1072;&#1085;&#1080;&#1081;
+     &#1101;&#1085;&#1076;&#1086;&#1082;&#1088;&#1080;&#1085;&#1085;&#1086;&#1081;
+     &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1099;<o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span style='mso-bidi-font-size:10.0pt'>&#1050;&#1083;&#1080;&#1085;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;
+&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1082;&#1072;
+(&#1073;&#1080;&#1086;&#1093;&#1080;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;):
+</span>22.06.2026 &#8211; 18.07.2026</p>
+
+<p class=MsoNormal><span style='mso-bidi-font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='tab-stops:49.5pt'>&#1044;&#1077;&#1082;&#1072;&#1085;
+&#1092;&#1072;&#1082;&#1091;&#1083;&#1100;&#1090;&#1077;&#1090;&#1072;
+&#1084;&#1077;&#1076;&#1080;&#1082;&#1086;-&#1073;&#1080;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1075;&#1086;</p>
+
+<p class=MsoNormal style='tab-stops:49.5pt'>&#1080;
+&#1075;&#1091;&#1084;&#1072;&#1085;&#1080;&#1090;&#1072;&#1088;&#1085;&#1086;&#1075;&#1086;
+&#1086;&#1073;&#1088;&#1072;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span><span style='mso-tab-count:6'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal align=right style='text-align:right;tab-stops:49.5pt'><span
+style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span>&#1040;.&#1057;.
+&#1053;&#1086;&#1074;&#1080;&#1082;&#1086;&#1074;<span style='font-size:8.0pt;
+font-family:"Tahoma",sans-serif;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+</div>
+</body>
+</html>

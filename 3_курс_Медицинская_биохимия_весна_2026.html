@@ -1,0 +1,774 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073697537 9 0 511 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073683329 9 0 511 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Заголовок 1 Знак";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-unhide:no;
+	mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+span.a
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Текст выноски";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	mso-ascii-font-family:"Segoe UI";
+	mso-hansi-font-family:"Segoe UI";
+	mso-bidi-font-family:"Segoe UI";}
+span.1
+	{mso-style-name:"Заголовок 1 Знак";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Заголовок 1";
+	mso-ansi-font-size:24.0pt;
+	mso-bidi-font-size:24.0pt;
+	mso-font-kerning:18.0pt;
+	font-weight:bold;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
+ /* Page Definitions */
+ @page
+	{mso-mirror-margins:yes;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0cm 1.0cm 1.0cm 1.0cm;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+/* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+:root { color-scheme: light; }
+body { margin: 0; padding: 12px; background: #fff; }
+.content-wrap { width: 100%; }
+.content-wrap table { border-collapse: collapse; max-width: 100%; }
+.content-wrap img { max-width: 100%; height: auto; }
+@media (max-width: 600px) {
+  body { padding: 8px; }
+}
+</style>
+</head>
+<body>
+<div class="content-wrap">
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid white .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid white;mso-border-insidev:.5pt solid white'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=361 valign=top style='width:270.45pt;border:solid white 1.0pt;
+  mso-border-alt:solid white .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:
+  right 258.75pt'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><span
+  style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span><span
+  style='mso-tab-count:1'>                                                                                    </span><span
+  style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'><span
+  style='mso-spacerun:yes'> </span><b style='mso-bidi-font-weight:normal'><i
+  style='mso-bidi-font-style:normal'><o:p></o:p></i></b></span></p>
+  </td>
+  <td width=357 valign=top style='width:267.65pt;border:solid white 1.0pt;
+  border-left:none;mso-border-left-alt:solid white .5pt;mso-border-alt:solid white .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>УТВЕРЖДАЮ<o:p></o:p></span></p>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>Проректор<span
+  style='mso-spacerun:yes'>  </span>по<span style='mso-spacerun:yes'> 
+  </span>учебной<o:p></o:p></span></p>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>и
+  воспитательной<span style='mso-spacerun:yes'>  </span>работе<o:p></o:p></span></p>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>____________С.
+  Ю. Абросимов<o:p></o:p></span></p>
+  <p class=MsoNormal align=right style='margin-bottom:0cm;text-align:right;
+  line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>&quot;_____&quot;___________
+  2025 г.</span><span style='font-size:10.0pt;font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='mso-bidi-font-size:9.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center;
+line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>РАСПИСАНИЕ <o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>занятий для
+студентов 3 курса факультета медико-биологического <o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>и гуманитарного
+образования по специальности 30.05.01 «Медицинская биохимия» <o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>на весенний<span
+style='mso-spacerun:yes'>  </span>семестр 2025-2026 учебного года<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='mso-bidi-font-size:9.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Фармакология<span
+style='mso-spacerun:yes'>   </span>Лекции 28 час., практические занятия 68 час<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>  </span>Патологическая анатомия Лекции 24 час.,
+практические занятия 60 час<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Общая и
+медицинская биофизика Лекции 34 час., практические занятия 74 час<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Медицинская
+электроника Лекции 20 час., практические занятия 52 час<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Патологическая
+физиология Лекции 8 час., практические занятия 20 час<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Основы менеджмента
+в здравоохранении<span style='mso-spacerun:yes'>  </span>Лекции 12 час.,
+практические занятия 36 час<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Основы
+дефектологии<span style='mso-spacerun:yes'>  </span>Лекции 12 час.,
+практические занятия 36 час<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Клиническая
+микробиология<span style='mso-spacerun:yes'>  </span>Лекции 14 час.,
+практические занятия 34 час<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Общая биохимия
+Лекции 30 час., практические занятия 72 час<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Общая и
+медицинская генетика<span style='mso-spacerun:yes'>   </span>Лекции 20 час.,
+практические занятия 52 час<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Физическая
+культура и спорт</span></b><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'>    </span>занятия<span style='mso-spacerun:yes'>  
+</span>32 час по расписанию кафедры<b><o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='mso-bidi-font-size:9.0pt;font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'> </span></span><span style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Расписание
+лекционных занятий (аудитории кафедр)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Патологическая
+физиология – 12:30-14:05<span style='mso-spacerun:yes'>  </span>– 9,16,23,30/04,
+7/05<span style='color:red'><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='margin-left:1.0pt;border-collapse:collapse;border:none;mso-border-alt:
+ solid black .5pt;mso-yfti-tbllook:160;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+ mso-border-insideh:.5pt solid black;mso-border-insidev:.5pt solid black'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=716 valign=top style='width:537.35pt;border:none;border-bottom:
+  solid black 1.0pt;mso-border-bottom-alt:solid black .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><i
+  style='mso-bidi-font-style:normal'><span style='font-size:10.0pt;font-family:
+  "Times New Roman",serif'>Понедельник<o:p></o:p></span></i></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>12:30-14:05<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Фармакология <span
+  style='mso-spacerun:yes'> </span>– <span style='mso-spacerun:yes'> </span>19,26/01;
+  2,9,16/02, 2,9,16,23,30/03,<span style='mso-spacerun:yes'>  </span>6,13,20,27/04
+  <o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=716 valign=top style='width:537.35pt;border:none;border-bottom:
+  solid black 1.0pt;mso-border-top-alt:solid black .5pt;mso-border-top-alt:
+  solid black .5pt;mso-border-bottom-alt:solid black .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><i
+  style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>Вторник </span></i></b><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>12:30-14:05<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Общая биохимия 20,27/01,<span
+  style='mso-spacerun:yes'>  </span>3,10,17,24/02, 3,10,17,24,31/03, 7,14,21,28/04<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=716 valign=top style='width:537.35pt;border:none;border-bottom:
+  solid black 1.0pt;mso-border-top-alt:solid black .5pt;mso-border-top-alt:
+  solid black .5pt;mso-border-bottom-alt:solid black .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><i
+  style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>Среда<o:p></o:p></span></i></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>8:00-11:25<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Медицинская
+  электроника – 21,28/01, 4,11,18/02 <b style='mso-bidi-font-weight:normal'><span
+  style='color:red'><o:p></o:p></span></b></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>12:30-16:05 </span></b><span style='font-size:12.0pt;
+  font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'> </span><b
+  style='mso-bidi-font-weight:normal'><span style='mso-spacerun:yes'> </span><o:p></o:p></b></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Основы
+  менеджмента в здравоохранении – 21,28/01,<span style='mso-spacerun:yes'> 
+  </span>4/02 <o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=716 valign=top style='width:537.35pt;border:none;border-bottom:
+  solid black 1.0pt;mso-border-top-alt:solid black .5pt;mso-border-top-alt:
+  solid black .5pt;mso-border-bottom-alt:solid black .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><i
+  style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>Четверг </span></i></b><span style='font-size:12.0pt;
+  font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'> </span><b
+  style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><o:p></o:p></i></b></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>12:30-14:05<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Общая и
+  медицинская биофизика – 22,29/01,<span style='mso-spacerun:yes'>  </span>5,12,19,26/02,
+  5,12,19,26 /03; 2,9,16,23,30/04, 7,14 /05, <b style='mso-bidi-font-weight:
+  normal'><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Пятница<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>8:00-11:25 <o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Общая и
+  медицинская генетика – <span style='mso-spacerun:yes'> </span>23,30/01,<span
+  style='mso-spacerun:yes'>  </span>6,13,20 /02<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>12:30-16:05<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Клиническая
+  микробиология – 23,30/01,<span style='mso-spacerun:yes'>  </span>6,13
+  /02;<span style='mso-spacerun:yes'>    </span><span
+  style='mso-spacerun:yes'> </span><b style='mso-bidi-font-weight:normal'>13/02
+  – 2 часа</b> </span><span style='font-family:"Times New Roman",serif'><span
+  style='mso-spacerun:yes'> </span></span><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Суббота<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11;mso-yfti-lastrow:yes'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>8:00-11:25 </span></b><span style='font-size:12.0pt;
+  font-family:"Times New Roman",serif'>Патологическая анатомия<span
+  style='mso-spacerun:yes'>  </span><b style='mso-bidi-font-weight:normal'><span
+  style='mso-spacerun:yes'> </span></b><span style='mso-spacerun:yes'>  </span>24,31/01,<span
+  style='mso-spacerun:yes'>  </span>7 /02; <span
+  style='mso-spacerun:yes'>  </span><b style='mso-bidi-font-weight:normal'>12:30-16:05
+  </b>16,23,30/05<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>12:30-16:05 </span></b><span style='font-size:12.0pt;
+  font-family:"Times New Roman",serif'>Основы дефектологии<span
+  style='mso-spacerun:yes'>  </span>24,31/01, 7/02 <b style='mso-bidi-font-weight:
+  normal'><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Расписание
+практических<span style='mso-spacerun:yes'>  </span>занятий (аудитории кафедр)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif'>Патологическая физиология – 12:30-16:05<span
+style='mso-spacerun:yes'>  </span>– 17,24/05, 15,22,29/06<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='margin-left:1.0pt;border-collapse:collapse;border:none;mso-border-alt:
+ solid black .5pt;mso-yfti-tbllook:160;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+ mso-border-insideh:.5pt solid black;mso-border-insidev:.5pt solid black'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=716 valign=top style='width:537.35pt;border:none;border-bottom:
+  solid black 1.0pt;mso-border-bottom-alt:solid black .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><i
+  style='mso-bidi-font-style:normal'><span style='font-size:10.0pt;font-family:
+  "Times New Roman",serif'>Понедельник<o:p></o:p></span></i></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>8:00-11:25<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Фармакология – 19,26/01;
+  2,9,16/02, 2,9,16,23,30/03,<span style='mso-spacerun:yes'> 
+  </span>6,13,20,27/04, 4,11,18/05<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=716 valign=top style='width:537.35pt;border:none;border-bottom:
+  solid black 1.0pt;mso-border-top-alt:solid black .5pt;mso-border-top-alt:
+  solid black .5pt;mso-border-bottom-alt:solid black .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><i
+  style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>Вторник</span></i></b><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>08:00-11:25<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Общая биохимия<span
+  style='mso-spacerun:yes'>  </span>20,27/01,<span style='mso-spacerun:yes'> 
+  </span>3,10,17,24/02, 3,10,17,24,31/03, 7,14,21,28/04, 5,12,19/05<span
+  style='color:red'> </span><b style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=716 valign=top style='width:537.35pt;border:none;border-bottom:
+  solid black 1.0pt;mso-border-top-alt:solid black .5pt;mso-border-top-alt:
+  solid black .5pt;mso-border-bottom-alt:solid black .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><i
+  style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>Среда<o:p></o:p></span></i></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'><span style='mso-spacerun:yes'>  </span>8:00-11:25 <o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Медицинская
+  электроника<span style='mso-spacerun:yes'>  </span>– <span
+  style='mso-spacerun:yes'> </span>25/02, 4,11,18,25/03; 1,8,15,23,30 /04; 6,13,20/05<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>12:30-16:05 <o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Основы
+  менеджмента в здравоохранении – 11,18,25/02;<span style='mso-spacerun:yes'> 
+  </span>4,11,18,25/03, 1,8/05 <o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=716 valign=top style='width:537.35pt;border:none;border-bottom:
+  solid black 1.0pt;mso-border-top-alt:solid black .5pt;mso-border-top-alt:
+  solid black .5pt;mso-border-bottom-alt:solid black .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><i
+  style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>Четверг<o:p></o:p></span></i></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>8:00-11:25<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'><span
+  style='mso-spacerun:yes'> </span>Общая и медицинская биофизика – <span
+  style='mso-spacerun:yes'>  </span>22,29/01,<span style='mso-spacerun:yes'> 
+  </span>5,12,19,26/02, 5,12,19,26 /03; 2,9,16,23,30/04, 7,14,21,<b
+  style='mso-bidi-font-weight:normal'>28</b>/05, <b style='mso-bidi-font-weight:
+  normal'>28/05 – 2 часа<o:p></o:p></b></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Пятница <span
+  style='mso-spacerun:yes'> </span></span></b><span style='font-size:12.0pt;
+  font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'> </span><b
+  style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>8:00-11:25 <span style='mso-spacerun:yes'> </span></span></b><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Общая и
+  медицинская генетика </span><span style='font-size:12.0pt;mso-bidi-font-size:
+  11.0pt;font-family:"Times New Roman",serif'>27 /02; 6,13,20,27/03; 3,10,17,24
+  /04</span><span style='font-size:14.0pt;mso-bidi-font-size:11.0pt;font-family:
+  "Times New Roman",serif'>,<span style='mso-spacerun:yes'>  </span></span><span
+  style='font-size:12.0pt;mso-bidi-font-size:11.0pt;font-family:"Times New Roman",serif'>8,15,22,29/05<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>12:30-16:05<span style='mso-spacerun:yes'>   </span></span></b><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Клиническая
+  микробиология <b style='mso-bidi-font-weight:normal'>13</b>, 20,27/02, <span
+  style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span></span><span
+  style='font-size:12.0pt;mso-bidi-font-size:11.0pt;font-family:"Times New Roman",serif'>6,13,20,27/03;
+  3,10/04</span><span style='font-size:14.0pt;mso-bidi-font-size:11.0pt;
+  font-family:"Times New Roman",serif'>,<span style='mso-spacerun:yes'> 
+  </span></span><b style='mso-bidi-font-weight:normal'><span style='font-size:
+  12.0pt;font-family:"Times New Roman",serif'>13/02 – 2<span
+  style='mso-spacerun:yes'>  </span>часа <o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Суббота <o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11;mso-yfti-lastrow:yes'>
+  <td width=716 valign=top style='width:537.35pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black .5pt;mso-border-alt:solid black .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>Патологическая анатомия
+  <o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'><span style='mso-spacerun:yes'> </span>8:00-11:25 </span></b><span
+  style='font-size:12.0pt;font-family:"Times New Roman",serif'>– <span
+  style='mso-spacerun:yes'> </span>14,21,28/02; 7,14,21,28/03,<span
+  style='mso-spacerun:yes'>  </span>4,11,18,25/04,<span
+  style='mso-spacerun:yes'>  </span>2,16,23,30/05 <span
+  style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman",serif'>12:30-16:05 </span></b><span style='font-size:12.0pt;
+  font-family:"Times New Roman",serif'>Основы дефектологии<span
+  style='mso-spacerun:yes'>  </span>14,21,28/02; 7,14,21,28/03,<span
+  style='mso-spacerun:yes'>  </span>4,11/04 <b style='mso-bidi-font-weight:
+  normal'><o:p></o:p></b></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+line-height:97%'><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:97%;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Продолжительность
+семестра: 19.01.2026 – 02.06.2026<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Сессия: 03.06.2025-16.06.2025
+г.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;text-align:justify;line-height:
+normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>Экзамены:
+1. Патологическая анатомия (9.06.2026) 2. Фармакология<span
+style='mso-spacerun:yes'>  </span>(15.06.2026)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;text-align:justify;line-height:
+normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>Зачеты:
+1. Медицинская электроника 2. Основы дефектологии 3. Клиническая микробиология<span
+style='mso-spacerun:yes'>  </span>4.</span> <span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>Основы менеджмента в здравоохранении. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;text-align:justify;line-height:
+normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;text-align:justify;line-height:
+normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>Производственная</span>
+<span style='font-size:12.0pt;font-family:"Times New Roman",serif'>по получению
+профессиональных умений и опыта профессиональной деятельности (лаборантская) : <span
+style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span>16.06.2026
+– 08.07.2026<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Декан <span
+style='mso-spacerun:yes'> </span>факультета медико-биологического<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><span
+style='mso-spacerun:yes'> </span>и гуманитарного образования<span
+style='mso-spacerun:yes'>   </span><span style='mso-tab-count:5'>                                                    </span><span
+style='mso-spacerun:yes'>    </span><span style='mso-tab-count:1'>        </span><span
+style='mso-spacerun:yes'>             </span><span style='mso-tab-count:1'>           </span><span
+style='mso-spacerun:yes'> </span>А.С. Новиков<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;line-height:normal;tab-stops:49.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+</div>
+</body>
+</html>
